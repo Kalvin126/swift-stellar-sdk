@@ -1,9 +1,12 @@
 # StellarSwift
 
-[![CI Status](http://img.shields.io/travis/Kalvin/StellarSwift.svg?style=flat)](https://travis-ci.org/Kalvin/StellarSwift)
 [![Version](https://img.shields.io/cocoapods/v/StellarSwift.svg?style=flat)](http://cocoapods.org/pods/StellarSwift)
 [![License](https://img.shields.io/cocoapods/l/StellarSwift.svg?style=flat)](http://cocoapods.org/pods/StellarSwift)
 [![Platform](https://img.shields.io/cocoapods/p/StellarSwift.svg?style=flat)](http://cocoapods.org/pods/StellarSwift)
+
+Swift SDK for interfacing with Stellar Horizon Nodes
+
+I am not directly affiliated with Stellar. Pull requests are welcome!
 
 ## Example
 
@@ -11,14 +14,35 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+Swift 4+
+
 ## Installation
 
-StellarSwift is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+This pod is not yet published to CocoaPods and not yet ready for production
 
-```ruby
-pod 'StellarSwift'
+To use this Pod, point to this repo in your Podfile by including
+```Ruby
+pod 'Stellar', :git => 'https://github.com/Kalvin126/swift-stellar-sdk'
 ```
+
+### How to use `Stellar`
+
+```Swift
+let horizon = Horizon(endpoint: .testNet)
+
+horizon.metrics.send { (metrics: Metrics?, error: Error?) in
+    print(metrics?.goroutines)
+}
+```
+
+## Roadmap
+
+ - 100% Stellar API Interface
+ - iOS, macOS Support
+ - Unit tests
+ - Example Project for iOS and macOS platforms
+ - CocoaPods, Carthage deployment
+ - Linux support
 
 ## Author
 
