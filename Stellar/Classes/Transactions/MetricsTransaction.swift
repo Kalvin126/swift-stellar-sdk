@@ -8,14 +8,14 @@
 
 import Foundation
 
-struct MetricsTransaction: Transaction {
+public struct MetricsTransaction: Transaction {
 
-    typealias ResponseType = Metrics
+    public typealias ResponseType = Metrics
 
     // MARK: Transaction
 
-    let horizon: Horizon
+    public let horizon: Horizon
 
-    let path: String = "/metrics"
+    public let path: String = "/metrics"
 
 }

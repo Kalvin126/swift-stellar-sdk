@@ -10,12 +10,12 @@ import Foundation
 
 class TransactionError: Error, Response {
 
-    let type: URL
-    let status: Int
+    public let type: URL
+    public let status: Int
 
-    let title: String
-    let detail: String
+    public let title: String
+    public let detail: String
 
-    let instance: String
+    public let instance: String
 
 }

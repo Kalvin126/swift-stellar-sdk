@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Logging {
+public struct Logging {
 
     enum CodingKeys: String, CodingKey {
 
@@ -19,14 +19,14 @@ struct Logging {
 
     }
 
-    struct Rates: Decodable {
+    public struct Rates: Decodable {
 
-        let rate15m: Double
-        let rate1m: Double
-        let count: UInt
-        let meanRate: Double
+        public let rate15m: Double
+        public let rate1m: Double
+        public let count: UInt
+        public let meanRate: Double
 
-        init(from decoder: Decoder) throws {
+        public init(from decoder: Decoder) throws {
             let container = try decoder.container(keyedBy: RateKeys.self)
 
             self.rate15m = try container.decode(Double.self, forKey: .rate15m)
@@ -37,14 +37,14 @@ struct Logging {
 
     }
 
-    struct ExtendedRates: Decodable {
+    public struct ExtendedRates: Decodable {
 
-        let rate15m: Double
-        let rate1m: Double
-        let count: UInt
-        let meanRate: Double
+        public let rate15m: Double
+        public let rate1m: Double
+        public let count: UInt
+        public let meanRate: Double
 
-        init(from decoder: Decoder) throws {
+        public init(from decoder: Decoder) throws {
             let container = try decoder.container(keyedBy: RateKeys.self)
 
             self.rate15m = try container.decode(Double.self, forKey: .rate15m)
@@ -55,10 +55,10 @@ struct Logging {
 
     }
 
-    let debug: Rates
-    let error: Rates
-    let info: Rates
-    let panic: Rates
-    let warning: Rates
+    public let debug: Rates
+    public let error: Rates
+    public let info: Rates
+    public let panic: Rates
+    public let warning: Rates
 
 }

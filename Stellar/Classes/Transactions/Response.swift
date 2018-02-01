@@ -8,6 +8,4 @@
 
 import Foundation
 
-protocol Response: class, Decodable {
-    
-}
+public protocol Response: class, Decodable { }

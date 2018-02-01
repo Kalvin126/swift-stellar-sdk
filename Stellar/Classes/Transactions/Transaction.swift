@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol Transaction {
+public protocol Transaction {
     associatedtype ResponseType: Response
 
     var horizon: Horizon { get }
@@ -25,9 +25,9 @@ protocol Transaction {
 // MARK: - Default implementation
 extension Transaction {
 
-    var method: String { return "GET" }
+    public var method: String { return "GET" }
 
-    var queryItems: [URLQueryItem]? { return nil }
+    public var queryItems: [URLQueryItem]? { return nil }
 }
 
 // MARK: - Networking
@@ -42,7 +42,7 @@ extension Transaction {
         return components
     }
 
-    func send(completion: @escaping (ResponseType?, Error?) -> Void) {
+    public func send(completion: @escaping (ResponseType?, Error?) -> Void) {
         guard let url = urlComponents.url(relativeTo: horizon.endpoint.url) else {
             print(#function + ": Invalid URLComponents \(String(describing: urlComponents.url))")
 

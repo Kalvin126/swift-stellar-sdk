@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Metrics: Response {
+public final class Metrics: Response {
 
     enum CodingKeys: String, CodingKey {
 
@@ -24,21 +24,21 @@ class Metrics: Response {
         case loggingWarning = "logging.warning"
     }
 
-    struct History {
+    public struct History {
 
-        let elderLedger: UInt
-        let latestLedger: UInt
+        public let elderLedger: UInt
+        public let latestLedger: UInt
 
-        let openConnections: UInt
+        public let openConnections: UInt
 
     }
 
-    let goroutines: UInt
+    public let goroutines: UInt
 
-    let history: History
-    let logging: Logging
+    public let history: History
+    public let logging: Logging
 
-    required init(from decoder: Decoder) throws {
+    public required init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
 
         let getValue = { (container: KeyedDecodingContainer<CodingKeys>, key: CodingKeys) -> UInt in
