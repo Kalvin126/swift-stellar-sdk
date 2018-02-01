@@ -9,26 +9,18 @@
 Pod::Spec.new do |s|
   s.name             = 'Stellar'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of Stellar'
+  s.summary          = 'Stellar Swift Native SDK'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = "Native Swift SDK for Stellar Horrizon Nodes"
 
   s.homepage         = 'https://github.com/Kalvin/Stellar'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Kalvin' => 'kalvin126@gmail.com' }
   s.source           = { :git => 'https://github.com/Kalvin/Stellar.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
+  s.tvos.deployment_target = '10.0'
+  s.osx.deployment_target = '10.12'
 
   s.source_files = 'Stellar/Classes/**/*'
   
@@ -36,7 +28,5 @@ TODO: Add long description of the pod here.
   #   'StellarSwift' => ['StellarSwift/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'Foundation'
 end
