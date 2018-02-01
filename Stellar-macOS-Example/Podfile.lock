@@ -1,0 +1,16 @@
+PODS:
+  - Stellar (0.1.0)
+
+DEPENDENCIES:
+  - Stellar (from `../`)
+
+EXTERNAL SOURCES:
+  Stellar:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Stellar: b6cd681b6bb2b867399dba9090409959226b5799
+
+PODFILE CHECKSUM: 911ebdef27400a7cd036b097aa29de2b32ea440e
+
+COCOAPODS: 1.4.0

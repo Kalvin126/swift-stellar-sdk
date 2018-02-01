@@ -1,0 +1,8 @@
+use_frameworks!
+
+platform :osx, '10.12'
+
+target 'Stellar_macOS_Example' do
+	pod 'Stellar', :path => '../'
+
+end
