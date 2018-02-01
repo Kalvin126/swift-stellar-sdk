@@ -38,7 +38,7 @@ horizon.metrics.send { (metrics: Metrics?, error: Error?) in
 ## Roadmap
 
  - 100% Stellar API Interface
- - iOS, macOS Support
+ - iOS, macOS, tvOS Support
  - Unit tests
  - Example Project for iOS and macOS platforms
  - CocoaPods, Carthage deployment
