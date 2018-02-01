@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-               BuildableName = "Stellar_Example.app"
-               BlueprintName = "Stellar_Example"
+               BuildableName = "Stellar_iOS_Demo.app"
+               BlueprintName = "Stellar_iOS_Demo"
                ReferencedContainer = "container:Stellar.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -58,8 +58,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "Stellar_Example.app"
-            BlueprintName = "Stellar_Example"
+            BuildableName = "Stellar_iOS_Demo.app"
+            BlueprintName = "Stellar_iOS_Demo"
             ReferencedContainer = "container:Stellar.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -82,8 +82,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "Stellar_Example.app"
-            BlueprintName = "Stellar_Example"
+            BuildableName = "Stellar_iOS_Demo.app"
+            BlueprintName = "Stellar_iOS_Demo"
             ReferencedContainer = "container:Stellar.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -101,8 +101,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "Stellar_Example.app"
-            BlueprintName = "Stellar_Example"
+            BuildableName = "Stellar_iOS_Demo.app"
+            BlueprintName = "Stellar_iOS_Demo"
             ReferencedContainer = "container:Stellar.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

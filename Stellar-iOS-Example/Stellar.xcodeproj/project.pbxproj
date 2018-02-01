@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		308CBC165B43842808B9FBE7 /* Pods_Stellar_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36279CFD58B431CB795D74DF /* Pods_Stellar_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		697D6C626B53FEE6DE99ACEA /* Pods_Stellar_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B28DD01F6BAF3642278B9B /* Pods_Stellar_Tests.framework */; };
-		990FA27E4B2565CD709B5A3B /* Pods_Stellar_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07DE1AF365A8DA5C70F2EF63 /* Pods_Stellar_Example.framework */; };
+		7BBC7143726484361921EBD2 /* Pods_Stellar_iOS_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E4FEF83D7EACD61A5206FC0 /* Pods_Stellar_iOS_Demo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,25 +28,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07DE1AF365A8DA5C70F2EF63 /* Pods_Stellar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stellar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F053F1A2DDE35CDE8470DEF /* Pods-Stellar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stellar_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Stellar_Example/Pods-Stellar_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4E8592045EB1CDB2961F6DBA /* Pods-Stellar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stellar_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stellar_Example/Pods-Stellar_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		527F86AAF2338FB14138CE74 /* StellarSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = StellarSwift.podspec; path = ../StellarSwift.podspec; sourceTree = "<group>"; };
-		607FACD01AFB9204008FA782 /* Stellar_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stellar_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Stellar/Info.plist; sourceTree = "<group>"; };
-		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Stellar/AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Stellar/ViewController.swift; sourceTree = "<group>"; };
+		36279CFD58B431CB795D74DF /* Pods_Stellar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stellar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E4FEF83D7EACD61A5206FC0 /* Pods_Stellar_iOS_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stellar_iOS_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		527F86AAF2338FB14138CE74 /* Stellar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Stellar.podspec; path = ../Stellar.podspec; sourceTree = "<group>"; };
+		607FACD01AFB9204008FA782 /* Stellar_iOS_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stellar_iOS_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Stellar/Images.xcassets; sourceTree = "<group>"; };
+		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* Stellar_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Stellar_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		67652E7463B9410A0F47138E /* Pods-Stellar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stellar_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stellar_Tests/Pods-Stellar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7989702A718E29C86AF8C4C6 /* Pods-Stellar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stellar_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Stellar_Tests/Pods-Stellar_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8ED980FC5928E38970AE9F51 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		B9B28DD01F6BAF3642278B9B /* Pods_Stellar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stellar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8DE07EC5C7384F8B6E6A6BE /* Pods-Stellar_iOS_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stellar_iOS_Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stellar_iOS_Demo/Pods-Stellar_iOS_Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		D0B4878A0214A612160720C6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		F022EC1236EF232E8B91A7E9 /* Pods-Stellar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stellar_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Stellar_Tests/Pods-Stellar_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F268D7CC97910CC507AC642D /* Pods-Stellar_iOS_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stellar_iOS_Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Stellar_iOS_Demo/Pods-Stellar_iOS_Demo.release.xcconfig"; sourceTree = "<group>"; };
+		F2EC4436994184BCB1E05474 /* Pods-Stellar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stellar_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stellar_Tests/Pods-Stellar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				990FA27E4B2565CD709B5A3B /* Pods_Stellar_Example.framework in Frameworks */,
+				7BBC7143726484361921EBD2 /* Pods_Stellar_iOS_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,20 +62,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				697D6C626B53FEE6DE99ACEA /* Pods_Stellar_Tests.framework in Frameworks */,
+				308CBC165B43842808B9FBE7 /* Pods_Stellar_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4D13452C4A0C7EDDB9FDF9F2 /* Pods */ = {
+		540BE2DADA902A85BDDBD8E8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4E8592045EB1CDB2961F6DBA /* Pods-Stellar_Example.debug.xcconfig */,
-				0F053F1A2DDE35CDE8470DEF /* Pods-Stellar_Example.release.xcconfig */,
-				67652E7463B9410A0F47138E /* Pods-Stellar_Tests.debug.xcconfig */,
-				F022EC1236EF232E8B91A7E9 /* Pods-Stellar_Tests.release.xcconfig */,
+				F2EC4436994184BCB1E05474 /* Pods-Stellar_Tests.debug.xcconfig */,
+				7989702A718E29C86AF8C4C6 /* Pods-Stellar_Tests.release.xcconfig */,
+				A8DE07EC5C7384F8B6E6A6BE /* Pods-Stellar_iOS_Demo.debug.xcconfig */,
+				F268D7CC97910CC507AC642D /* Pods-Stellar_iOS_Demo.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -84,24 +84,24 @@
 			isa = PBXGroup;
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
-				607FACD21AFB9204008FA782 /* iOS Example */,
+				607FACD21AFB9204008FA782 /* Stellar */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				4D13452C4A0C7EDDB9FDF9F2 /* Pods */,
-				DC87EC0E421CA010ED658A7F /* Frameworks */,
+				540BE2DADA902A85BDDBD8E8 /* Pods */,
+				8D2A7D7556783F1467F58694 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD01AFB9204008FA782 /* Stellar_Example.app */,
+				607FACD01AFB9204008FA782 /* Stellar_iOS_Demo.app */,
 				607FACE51AFB9204008FA782 /* Stellar_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		607FACD21AFB9204008FA782 /* iOS Example */ = {
+		607FACD21AFB9204008FA782 /* Stellar */ = {
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
@@ -111,7 +111,7 @@
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
-			name = "iOS Example";
+			path = Stellar;
 			sourceTree = "<group>";
 		};
 		607FACD31AFB9204008FA782 /* Supporting Files */ = {
@@ -119,7 +119,7 @@
 			children = (
 				607FACD41AFB9204008FA782 /* Info.plist */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		607FACE81AFB9204008FA782 /* Tests */ = {
@@ -136,24 +136,24 @@
 			children = (
 				607FACEA1AFB9204008FA782 /* Info.plist */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				527F86AAF2338FB14138CE74 /* StellarSwift.podspec */,
+				527F86AAF2338FB14138CE74 /* Stellar.podspec */,
 				8ED980FC5928E38970AE9F51 /* README.md */,
 				D0B4878A0214A612160720C6 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		DC87EC0E421CA010ED658A7F /* Frameworks */ = {
+		8D2A7D7556783F1467F58694 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				07DE1AF365A8DA5C70F2EF63 /* Pods_Stellar_Example.framework */,
-				B9B28DD01F6BAF3642278B9B /* Pods_Stellar_Tests.framework */,
+				36279CFD58B431CB795D74DF /* Pods_Stellar_Tests.framework */,
+				4E4FEF83D7EACD61A5206FC0 /* Pods_Stellar_iOS_Demo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -161,36 +161,36 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		607FACCF1AFB9204008FA782 /* Stellar_Example */ = {
+		607FACCF1AFB9204008FA782 /* Stellar_iOS_Demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "Stellar_Example" */;
+			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "Stellar_iOS_Demo" */;
 			buildPhases = (
-				38B58515AE2A2A7D65962328 /* [CP] Check Pods Manifest.lock */,
+				9B82CCDE0FC347F0A77D93A6 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				3E9F01E988837BBEB9D04558 /* [CP] Embed Pods Frameworks */,
-				C1EABCF1D82B9250613B62D3 /* [CP] Copy Pods Resources */,
+				2C842285983D645ABF9F7ECF /* [CP] Embed Pods Frameworks */,
+				58C75285EAF3B2E12DB0BDDC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Stellar_Example;
+			name = Stellar_iOS_Demo;
 			productName = StellarSwift;
-			productReference = 607FACD01AFB9204008FA782 /* Stellar_Example.app */;
+			productReference = 607FACD01AFB9204008FA782 /* Stellar_iOS_Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
 		607FACE41AFB9204008FA782 /* Stellar_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "Stellar_Tests" */;
 			buildPhases = (
-				4079654B921A0A4E87EAFFED /* [CP] Check Pods Manifest.lock */,
+				C9F41CD020835B4B1B70819C /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				9DFE7976B865DDE208481B4D /* [CP] Embed Pods Frameworks */,
-				ECF14665D0166F45AB75E699 /* [CP] Copy Pods Resources */,
+				B16768444B269D28CDAF613B /* [CP] Embed Pods Frameworks */,
+				0B7A60F1E13F61E21E112831 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -208,7 +208,7 @@
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
+				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
@@ -219,7 +219,6 @@
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
-						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
 			};
@@ -236,7 +235,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				607FACCF1AFB9204008FA782 /* Stellar_Example */,
+				607FACCF1AFB9204008FA782 /* Stellar_iOS_Demo */,
 				607FACE41AFB9204008FA782 /* Stellar_Tests */,
 			);
 		};
@@ -263,7 +262,55 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		38B58515AE2A2A7D65962328 /* [CP] Check Pods Manifest.lock */ = {
+		0B7A60F1E13F61E21E112831 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stellar_Tests/Pods-Stellar_Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C842285983D645ABF9F7ECF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Stellar_iOS_Demo/Pods-Stellar_iOS_Demo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Stellar/Stellar.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stellar.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stellar_iOS_Demo/Pods-Stellar_iOS_Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58C75285EAF3B2E12DB0BDDC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stellar_iOS_Demo/Pods-Stellar_iOS_Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B82CCDE0FC347F0A77D93A6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -274,32 +321,29 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Stellar_Example-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Stellar_iOS_Demo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3E9F01E988837BBEB9D04558 /* [CP] Embed Pods Frameworks */ = {
+		B16768444B269D28CDAF613B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Stellar_Example/Pods-Stellar_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Stellar/Stellar.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stellar.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stellar_Example/Pods-Stellar_Example-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stellar_Tests/Pods-Stellar_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4079654B921A0A4E87EAFFED /* [CP] Check Pods Manifest.lock */ = {
+		C9F41CD020835B4B1B70819C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -315,51 +359,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9DFE7976B865DDE208481B4D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stellar_Tests/Pods-Stellar_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C1EABCF1D82B9250613B62D3 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stellar_Example/Pods-Stellar_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		ECF14665D0166F45AB75E699 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stellar_Tests/Pods-Stellar_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -387,7 +386,7 @@
 /* Begin PBXTargetDependency section */
 		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 607FACCF1AFB9204008FA782 /* Stellar_Example */;
+			target = 607FACCF1AFB9204008FA782 /* Stellar_iOS_Demo */;
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -399,7 +398,6 @@
 				607FACDA1AFB9204008FA782 /* Base */,
 			);
 			name = Main.storyboard;
-			path = Stellar;
 			sourceTree = "<group>";
 		};
 		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
@@ -408,7 +406,6 @@
 				607FACDF1AFB9204008FA782 /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = Stellar;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -464,6 +461,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -509,45 +507,44 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E8592045EB1CDB2961F6DBA /* Pods-Stellar_Example.debug.xcconfig */;
+			baseConfigurationReference = A8DE07EC5C7384F8B6E6A6BE /* Pods-Stellar_iOS_Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = "$(SRCROOT)/Stellar/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Stellar/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = org.redpanda.demo.Stellar;
+				MODULE_NAME = StellarExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.redpanda.demo.Stellar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F053F1A2DDE35CDE8470DEF /* Pods-Stellar_Example.release.xcconfig */;
+			baseConfigurationReference = F268D7CC97910CC507AC642D /* Pods-Stellar_iOS_Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = "$(SRCROOT)/Stellar/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Stellar/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = org.redpanda.demo.Stellar;
+				MODULE_NAME = StellarExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.redpanda.demo.Stellar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67652E7463B9410A0F47138E /* Pods-Stellar_Tests.debug.xcconfig */;
+			baseConfigurationReference = F2EC4436994184BCB1E05474 /* Pods-Stellar_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -557,29 +554,27 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = Tests/Info.plist;
+				INFOPLIST_FILE = "Tests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F022EC1236EF232E8B91A7E9 /* Pods-Stellar_Tests.release.xcconfig */;
+			baseConfigurationReference = 7989702A718E29C86AF8C4C6 /* Pods-Stellar_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = Tests/Info.plist;
+				INFOPLIST_FILE = "Tests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -595,7 +590,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "Stellar_Example" */ = {
+		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "Stellar_iOS_Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,
