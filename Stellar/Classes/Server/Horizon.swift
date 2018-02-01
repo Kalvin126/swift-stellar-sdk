@@ -8,26 +8,31 @@
 
 import Foundation
 
-final class Horizon {
+public final class Horizon {
 
     private lazy var session: URLSession = URLSession(configuration: .default)
 
     // MARK: Configuration
 
-    var endpoint: Endpoint
+    public var endpoint: Endpoint {
+        didSet {
+            if allowUnsecureHTTP, !endpoint.isSecure {
+                fatalError(#function + ": Cannot connect to insecure horizon server")
+            }
+        }
+    }
 
-    let allowUnsecureHTTP: Bool
+    public let allowUnsecureHTTP: Bool
 
     // MARK: Init
 
-    init(endpoint: Endpoint, allowUnsecureHTTP: Bool = false) {
+    public init(endpoint: Endpoint, allowUnsecureHTTP: Bool = false) {
         self.endpoint = endpoint
         self.allowUnsecureHTTP = allowUnsecureHTTP
 
         if allowUnsecureHTTP, !endpoint.isSecure {
             fatalError(#function + ": Cannot connect to insecure horizon server")
         }
-
     }
 
 }

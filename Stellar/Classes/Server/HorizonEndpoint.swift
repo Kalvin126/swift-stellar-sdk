@@ -10,12 +10,12 @@ import Foundation
 
 extension Horizon {
 
-    enum Endpoint {
+    public enum Endpoint {
 
         case endpoint(url: String)
 
-        static var testNet: Endpoint = .endpoint(url: "https://horizon-testnet.stellar.org")
-        static var `public`: Endpoint = .endpoint(url: "https://horizon.stellar.org")
+        public static var testNet: Endpoint = .endpoint(url: "https://horizon-testnet.stellar.org")
+        public static var `public`: Endpoint = .endpoint(url: "https://horizon.stellar.org")
     }
 
 }
@@ -34,7 +34,7 @@ extension Horizon.Endpoint {
         return url
     }
 
-    var isSecure: Bool {
+    public var isSecure: Bool {
         return url.scheme == "https"
     }
 

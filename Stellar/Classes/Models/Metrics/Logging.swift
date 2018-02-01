@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Logging {
+public struct Logging {
 
     enum CodingKeys: String, CodingKey {
 
